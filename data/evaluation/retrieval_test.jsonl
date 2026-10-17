@@ -1,0 +1,5 @@
+{"id":"q001","query":"What does FastAPI depend on?","gold_chunk_ids":["991c6c230b90aef0"]}
+{"id":"q002","query":"How does FastAPI use Pydantic?","gold_chunk_ids":["991c6c230b90aef0","de05de89af21155b"]}
+{"id":"q003","query":"What is OpenAPI documentation?","gold_chunk_ids":["c77ca4acea9e162b","2e635a728f538213","fc15c2e1b30cf685"]}
+{"id":"q004","query":"What library is FastAPI built on?","gold_chunk_ids":[]}
+{"id":"q005","query":"What supports WebSockets in FastAPI?","gold_chunk_ids":[]}

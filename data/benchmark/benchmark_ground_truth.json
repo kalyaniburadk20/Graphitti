@@ -1,0 +1,254 @@
+[
+  {
+    "id": "q01",
+    "query": "What does FastAPI depend on?",
+    "intent": "RELATIONAL",
+    "relevant_chunk_ids": [
+      "991c6c230b90aef0"
+    ],
+    "relevant_phrases": [
+      "FastAPI depends on Pydantic and Starlette."
+    ]
+  },
+  {
+    "id": "q02",
+    "query": "Which page mentions ORJSONResponse?",
+    "intent": "LEXICAL",
+    "relevant_chunk_ids": [
+      "05f61145ce2df1b7"
+    ],
+    "relevant_phrases": [
+      "ORJSONResponse"
+    ]
+  },
+  {
+    "id": "q03",
+    "query": "Explain FastAPI dependency injection",
+    "intent": "SEMANTIC",
+    "relevant_chunk_ids": [
+      "753f8232429080c9"
+    ],
+    "relevant_phrases": [
+      "Dependency Injection system"
+    ]
+  },
+  {
+    "id": "q04",
+    "query": "Which framework is based on Starlette?",
+    "intent": "RELATIONAL",
+    "relevant_chunk_ids": [
+      "7d914cec5b44fe1e"
+    ],
+    "relevant_phrases": [
+      "Starlette for the web parts"
+    ]
+  },
+  {
+    "id": "q05",
+    "query": "What does FastAPI use for data validation?",
+    "intent": "RELATIONAL",
+    "relevant_chunk_ids": [
+      "de05de89af21155b",
+      "32af250da9293efd"
+    ],
+    "relevant_phrases": [
+      "Pydantic for the data parts.",
+      "standard Python types, thanks to Pydantic."
+    ]
+  },
+  {
+    "id": "q06",
+    "query": "What does FastAPI use for its ASGI web functionality?",
+    "intent": "RELATIONAL",
+    "relevant_chunk_ids": [
+      "7d914cec5b44fe1e"
+    ],
+    "relevant_phrases": [
+      "Starlette for the web parts"
+    ]
+  },
+  {
+    "id": "q07",
+    "query": "Find documentation related to WebSockets",
+    "intent": "LEXICAL",
+    "relevant_chunk_ids": [
+      "c2271b4db4c4622b"
+    ],
+    "relevant_phrases": [
+      "WebSockets"
+    ]
+  },
+  {
+    "id": "q08",
+    "query": "Find information about OAuth2 support",
+    "intent": "LEXICAL",
+    "relevant_chunk_ids": [
+      "6a3105b222115ae6"
+    ],
+    "relevant_phrases": [
+      "OAuth2"
+    ]
+  },
+  {
+    "id": "q09",
+    "query": "Explain how FastAPI handles request validation",
+    "intent": "SEMANTIC",
+    "relevant_chunk_ids": [
+      "da3ce38adb57f120",
+      "32af250da9293efd"
+    ],
+    "relevant_phrases": [
+      "FastAPI will: Validate",
+      "thanks to Pydantic"
+    ]
+  },
+  {
+    "id": "q10",
+    "query": "Explain FastAPI performance",
+    "intent": "SEMANTIC",
+    "relevant_chunk_ids": [
+      "691b148b4a40f836",
+      "07228f3795c0ac4f",
+      "5dfe233de710dbb3"
+    ],
+    "relevant_phrases": [
+      "high performance",
+      "Very high performance",
+      "fastest Python frameworks"
+    ]
+  },
+  {
+    "id": "q11",
+    "query": "What is FastAPI built on?",
+    "intent": "RELATIONAL",
+    "relevant_chunk_ids": [
+      "7d914cec5b44fe1e"
+    ],
+    "relevant_phrases": [
+      "Starlette for the web parts"
+    ]
+  },
+  {
+    "id": "q12",
+    "query": "What library provides ORJSONResponse?",
+    "intent": "RELATIONAL",
+    "relevant_chunk_ids": [
+      "05f61145ce2df1b7"
+    ],
+    "relevant_phrases": [
+      "orjson",
+      "ORJSONResponse"
+    ]
+  },
+  {
+    "id": "q13",
+    "query": "How does FastAPI relate to OpenAPI?",
+    "intent": "RELATIONAL",
+    "relevant_chunk_ids": [
+      "8dd9cb9d2ab8496b",
+      "c77ca4acea9e162b"
+    ],
+    "relevant_phrases": [
+      "OpenAPI"
+    ]
+  },
+  {
+    "id": "q14",
+    "query": "Explain the FastAPI CLI",
+    "intent": "SEMANTIC",
+    "relevant_chunk_ids": [
+      "e7f95bc77d7d0594"
+    ],
+    "relevant_phrases": [
+      "fastapi-cli"
+    ]
+  },
+  {
+    "id": "q15",
+    "query": "What server is used to serve FastAPI applications?",
+    "intent": "RELATIONAL",
+    "relevant_chunk_ids": [
+      "e8dca72a83fde7ca",
+      "5be74db2a63bd029"
+    ],
+    "relevant_phrases": [
+      "starts a server using Uvicorn",
+      "uvicorn - for the server"
+    ]
+  },
+  {
+    "id": "q16",
+    "query": "What is the relationship between FastAPI and Pydantic?",
+    "intent": "RELATIONAL",
+    "relevant_chunk_ids": [
+      "991c6c230b90aef0",
+      "de05de89af21155b"
+    ],
+    "relevant_phrases": [
+      "FastAPI depends on Pydantic",
+      "Pydantic for the data parts"
+    ]
+  },
+  {
+    "id": "q17",
+    "query": "What technology is used for API documentation in FastAPI?",
+    "intent": "SEMANTIC",
+    "relevant_chunk_ids": [
+      "8dd9cb9d2ab8496b",
+      "c77ca4acea9e162b"
+    ],
+    "relevant_phrases": [
+      "OpenAPI",
+      "Swagger"
+    ]
+  },
+  {
+    "id": "q18",
+    "query": "What are the standard FastAPI dependencies?",
+    "intent": "SEMANTIC",
+    "relevant_chunk_ids": [
+      "51d7efe76a0bb7a5"
+    ],
+    "relevant_phrases": [
+      "standard dependencies"
+    ]
+  },
+  {
+  "id": "q19",
+  "query": "What does FastAPI depend on that also uses HTTPX?",
+  "intent": "MULTI_HOP",
+  "relevant_chunk_ids": [],
+  "expected_path": {
+    "source": "FastAPI",
+    "edges": [
+      "DEPENDS_ON",
+      "USES"
+    ],
+    "middle": "Starlette",
+    "target": "HTTPX"
+  },
+  "relevant_phrases": [
+    "FastAPI depends on Pydantic and Starlette.",
+    "Used by Starlette: httpx - Required if you want to use the TestClient ."
+  ]
+},
+  {
+  "id": "q20",
+  "query": "Which dependency does FastAPI depend on that also uses HTTPX?",
+  "intent": "MULTI_HOP",
+  "relevant_chunk_ids": [],
+  "expected_path": {
+    "source": "FastAPI",
+    "edges": [
+      "DEPENDS_ON",
+      "USES"
+    ],
+    "middle": "Starlette",
+    "target": "HTTPX"
+  },
+  "relevant_phrases": [
+    "FastAPI depends on Pydantic and Starlette.",
+    "Used by Starlette: httpx - Required if you want to use the TestClient ."
+  ]
+}
+]

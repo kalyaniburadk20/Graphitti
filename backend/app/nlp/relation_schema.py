@@ -1,0 +1,15 @@
+RELATION_TYPES = {
+    "USES",
+    "DEPENDS_ON",
+    "BUILT_ON",
+    "SUPPORTS",
+    "REQUIRES",
+    "PROVIDES",
+    "INCLUDES",
+    "IMPLEMENTS",
+    "REPLACES",
+    "COMPATIBLE_WITH",
+    "INTEGRATES_WITH",
+    "VALIDATES",
+    "TESTED_WITH",
+}

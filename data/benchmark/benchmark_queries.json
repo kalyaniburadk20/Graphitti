@@ -1,0 +1,171 @@
+[
+  {
+    "id": "q01",
+    "query": "What does FastAPI depend on?",
+    "intent": "RELATIONAL",
+    "relevant_phrases": [
+      "FastAPI depends on Pydantic and Starlette."
+    ]
+  },
+  {
+    "id": "q02",
+    "query": "Which page mentions ORJSONResponse?",
+    "intent": "LEXICAL",
+    "relevant_phrases": [
+      "orjson",
+      "ORJSONResponse"
+    ]
+  },
+  {
+    "id": "q03",
+    "query": "Explain FastAPI dependency injection",
+    "intent": "SEMANTIC",
+    "relevant_phrases": [
+      "Dependency Injection system"
+    ]
+  },
+  {
+    "id": "q04",
+    "query": "Which framework is based on Starlette?",
+    "intent": "RELATIONAL",
+    "relevant_phrases": [
+      "FastAPI",
+      "Starlette"
+    ]
+  },
+  {
+    "id": "q05",
+    "query": "What does FastAPI use for data validation?",
+    "intent": "RELATIONAL",
+    "relevant_phrases": [
+      "Pydantic"
+    ]
+  },
+  {
+    "id": "q06",
+    "query": "What does FastAPI use for its ASGI web functionality?",
+    "intent": "RELATIONAL",
+    "relevant_phrases": [
+      "Starlette"
+    ]
+  },
+  {
+    "id": "q07",
+    "query": "Find documentation related to WebSockets",
+    "intent": "LEXICAL",
+    "relevant_phrases": [
+      "WebSockets"
+    ]
+  },
+  {
+    "id": "q08",
+    "query": "Find information about OAuth2 support",
+    "intent": "LEXICAL",
+    "relevant_phrases": [
+      "OAuth2"
+    ]
+  },
+  {
+    "id": "q09",
+    "query": "Explain how FastAPI handles request validation",
+    "intent": "SEMANTIC",
+    "relevant_phrases": [
+      "Validate",
+      "FastAPI"
+    ]
+  },
+  {
+    "id": "q10",
+    "query": "Explain FastAPI performance",
+    "intent": "SEMANTIC",
+    "relevant_phrases": [
+      "high performance",
+      "performance"
+    ]
+  },
+  {
+    "id": "q11",
+    "query": "What is FastAPI built on?",
+    "intent": "RELATIONAL",
+    "relevant_phrases": [
+      "Starlette"
+    ]
+  },
+  {
+    "id": "q12",
+    "query": "What library provides ORJSONResponse?",
+    "intent": "RELATIONAL",
+    "relevant_phrases": [
+      "orjson",
+      "ORJSONResponse"
+    ]
+  },
+  {
+    "id": "q13",
+    "query": "How does FastAPI relate to OpenAPI?",
+    "intent": "RELATIONAL",
+    "relevant_phrases": [
+      "OpenAPI"
+    ]
+  },
+  {
+    "id": "q14",
+    "query": "Explain the FastAPI CLI",
+    "intent": "SEMANTIC",
+    "relevant_phrases": [
+      "fastapi-cli"
+    ]
+  },
+  {
+    "id": "q15",
+    "query": "What server is used to serve FastAPI applications?",
+    "intent": "RELATIONAL",
+    "relevant_phrases": [
+      "uvicorn"
+    ]
+  },
+  {
+    "id": "q16",
+    "query": "What is the relationship between FastAPI and Pydantic?",
+    "intent": "RELATIONAL",
+    "relevant_phrases": [
+      "FastAPI",
+      "Pydantic"
+    ]
+  },
+  {
+    "id": "q17",
+    "query": "What technology is used for API documentation in FastAPI?",
+    "intent": "SEMANTIC",
+    "relevant_phrases": [
+      "OpenAPI",
+      "Swagger"
+    ]
+  },
+  {
+    "id": "q18",
+    "query": "What are the standard FastAPI dependencies?",
+    "intent": "SEMANTIC",
+    "relevant_phrases": [
+      "standard dependencies"
+    ]
+  },
+  {
+    "id": "q19",
+    "query": "What does FastAPI depend on that also uses Pydantic?",
+    "intent": "MULTI_HOP",
+    "relevant_phrases": [
+      "FastAPI depends on Starlette.",
+      "Starlette uses Pydantic."
+    ]
+  },
+  {
+    "id": "q20",
+    "query": "What dependency path connects FastAPI to Pydantic?",
+    "intent": "MULTI_HOP",
+    "relevant_phrases": [
+      "FastAPI depends on Starlette.",
+      "Starlette uses Pydantic."
+    ]
+  }
+]

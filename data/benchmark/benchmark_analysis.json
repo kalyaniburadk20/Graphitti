@@ -1,0 +1,1409 @@
+{
+  "query_matrix": [
+    {
+      "id": "q01",
+      "query": "What does FastAPI depend on?",
+      "intent": "RELATIONAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.41,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "7d914cec5b44fe1e",
+            "69a95b69ea9d5a84",
+            "691b148b4a40f836",
+            "2667dff93d9b7394"
+          ]
+        },
+        "dense": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 20.35,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "a1d1896704f930b6",
+            "60a87b48bd2c375a",
+            "da3ce38adb57f120",
+            "aef36ca0de77c0b3"
+          ]
+        },
+        "graph": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 83.05,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "da3ce38adb57f120",
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 80.17,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "da3ce38adb57f120",
+            "7d914cec5b44fe1e",
+            "a1d1896704f930b6",
+            "69a95b69ea9d5a84"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q02",
+      "query": "Which page mentions ORJSONResponse?",
+      "intent": "LEXICAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.2,
+          "retrieved_chunk_ids": [
+            "05f61145ce2df1b7",
+            "e7f95bc77d7d0594",
+            "5be74db2a63bd029",
+            "691b148b4a40f836",
+            "07228f3795c0ac4f"
+          ]
+        },
+        "dense": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 16.72,
+          "retrieved_chunk_ids": [
+            "05f61145ce2df1b7",
+            "8cdcac56ec0eccce",
+            "3d721b4a16fc036d",
+            "854712dcf2703f3d",
+            "8f74d139fdd0208c"
+          ]
+        },
+        "graph": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 12.39,
+          "retrieved_chunk_ids": [
+            "05f61145ce2df1b7"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 48.35,
+          "retrieved_chunk_ids": [
+            "05f61145ce2df1b7",
+            "e7f95bc77d7d0594",
+            "8cdcac56ec0eccce",
+            "5be74db2a63bd029",
+            "3d721b4a16fc036d"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q03",
+      "query": "Explain FastAPI dependency injection",
+      "intent": "SEMANTIC",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.19,
+          "retrieved_chunk_ids": [
+            "753f8232429080c9",
+            "e7f95bc77d7d0594",
+            "51d7efe76a0bb7a5",
+            "664b81f0374c5348",
+            "691b148b4a40f836"
+          ]
+        },
+        "dense": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 32.73,
+          "retrieved_chunk_ids": [
+            "da3ce38adb57f120",
+            "05f61145ce2df1b7",
+            "a1d1896704f930b6",
+            "aef36ca0de77c0b3",
+            "60a87b48bd2c375a"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 21.71,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "da3ce38adb57f120",
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": false,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 0.5,
+          "latency_ms": 35.93,
+          "retrieved_chunk_ids": [
+            "da3ce38adb57f120",
+            "753f8232429080c9",
+            "991c6c230b90aef0",
+            "e7f95bc77d7d0594",
+            "05f61145ce2df1b7"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q04",
+      "query": "Which framework is based on Starlette?",
+      "intent": "RELATIONAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": true,
+          "mrr": 0.2,
+          "latency_ms": 0.24,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "c2271b4db4c4622b",
+            "691b148b4a40f836",
+            "8dd9cb9d2ab8496b",
+            "7d914cec5b44fe1e"
+          ]
+        },
+        "dense": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": true,
+          "mrr": 0.25,
+          "latency_ms": 19.76,
+          "retrieved_chunk_ids": [
+            "5dfe233de710dbb3",
+            "6e4c96e352fe03e9",
+            "1346eae2f2ae0ab4",
+            "7d914cec5b44fe1e",
+            "5be74db2a63bd029"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 22.25,
+          "retrieved_chunk_ids": [
+            "c2271b4db4c4622b",
+            "6e4c96e352fe03e9",
+            "991c6c230b90aef0"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": true,
+          "mrr": 0.25,
+          "latency_ms": 37.45,
+          "retrieved_chunk_ids": [
+            "c2271b4db4c4622b",
+            "991c6c230b90aef0",
+            "6e4c96e352fe03e9",
+            "7d914cec5b44fe1e",
+            "5dfe233de710dbb3"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "dense"
+    },
+    {
+      "id": "q05",
+      "query": "What does FastAPI use for data validation?",
+      "intent": "RELATIONAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": false,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 0.5,
+          "latency_ms": 0.28,
+          "retrieved_chunk_ids": [
+            "4759f48d4ff512ef",
+            "de05de89af21155b",
+            "45650d000845c382",
+            "d4f78fd6cd3825a7",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "dense": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 15.3,
+          "retrieved_chunk_ids": [
+            "da3ce38adb57f120",
+            "60a87b48bd2c375a",
+            "664b81f0374c5348",
+            "ac1af90342ff8e17",
+            "691b148b4a40f836"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 20.15,
+          "retrieved_chunk_ids": [
+            "da3ce38adb57f120",
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17",
+            "991c6c230b90aef0"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": true,
+          "mrr": 0.25,
+          "latency_ms": 36.21,
+          "retrieved_chunk_ids": [
+            "ac1af90342ff8e17",
+            "da3ce38adb57f120",
+            "4759f48d4ff512ef",
+            "de05de89af21155b",
+            "60a87b48bd2c375a"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q06",
+      "query": "What does FastAPI use for its ASGI web functionality?",
+      "intent": "RELATIONAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.33,
+          "retrieved_chunk_ids": [
+            "7d914cec5b44fe1e",
+            "691b148b4a40f836",
+            "05f61145ce2df1b7",
+            "0a032a9188071eb5",
+            "93ad4012b94b667f"
+          ]
+        },
+        "dense": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 16.4,
+          "retrieved_chunk_ids": [
+            "60a87b48bd2c375a",
+            "691b148b4a40f836",
+            "664b81f0374c5348",
+            "b928a1368e7b8337",
+            "5be74db2a63bd029"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 21.17,
+          "retrieved_chunk_ids": [
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "991c6c230b90aef0",
+            "da3ce38adb57f120",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": false,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 0.3333333333333333,
+          "latency_ms": 33.85,
+          "retrieved_chunk_ids": [
+            "691b148b4a40f836",
+            "5be74db2a63bd029",
+            "7d914cec5b44fe1e",
+            "60a87b48bd2c375a",
+            "e8dca72a83fde7ca"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q07",
+      "query": "Find documentation related to WebSockets",
+      "intent": "LEXICAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.22,
+          "retrieved_chunk_ids": [
+            "c2271b4db4c4622b",
+            "980d887172b8be96",
+            "66deab1d4e8a57ee",
+            "0a032a9188071eb5",
+            "22a1bb1a6c7fd196"
+          ]
+        },
+        "dense": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 10.39,
+          "retrieved_chunk_ids": [
+            "c2271b4db4c4622b",
+            "0a032a9188071eb5",
+            "fc15c2e1b30cf685",
+            "2e635a728f538213",
+            "22a1bb1a6c7fd196"
+          ]
+        },
+        "graph": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 13.16,
+          "retrieved_chunk_ids": [
+            "c2271b4db4c4622b"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 19.59,
+          "retrieved_chunk_ids": [
+            "c2271b4db4c4622b",
+            "0a032a9188071eb5",
+            "22a1bb1a6c7fd196",
+            "980d887172b8be96",
+            "66deab1d4e8a57ee"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q08",
+      "query": "Find information about OAuth2 support",
+      "intent": "LEXICAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.21,
+          "retrieved_chunk_ids": [
+            "6a3105b222115ae6",
+            "eaa6acd81f2bf74e",
+            "0578c3bf28a83e1e",
+            "9dab8c68d374d32f",
+            "4dd703b51a57a8f2"
+          ]
+        },
+        "dense": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 11.12,
+          "retrieved_chunk_ids": [
+            "6a3105b222115ae6",
+            "8dd9cb9d2ab8496b",
+            "fc15c2e1b30cf685",
+            "2e635a728f538213",
+            "4bca35be359874c1"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 11.89,
+          "retrieved_chunk_ids": []
+        },
+        "hybrid_rrf": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 20.1,
+          "retrieved_chunk_ids": [
+            "6a3105b222115ae6",
+            "eaa6acd81f2bf74e",
+            "8dd9cb9d2ab8496b",
+            "0578c3bf28a83e1e",
+            "fc15c2e1b30cf685"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q09",
+      "query": "Explain how FastAPI handles request validation",
+      "intent": "SEMANTIC",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 0.24,
+          "retrieved_chunk_ids": [
+            "5db6b5fe5ce39aa4",
+            "45650d000845c382",
+            "d4f78fd6cd3825a7",
+            "4dd703b51a57a8f2",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "dense": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 12.63,
+          "retrieved_chunk_ids": [
+            "da3ce38adb57f120",
+            "60a87b48bd2c375a",
+            "05f61145ce2df1b7",
+            "ac1af90342ff8e17",
+            "e7f95bc77d7d0594"
+          ]
+        },
+        "graph": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 18.4,
+          "retrieved_chunk_ids": [
+            "da3ce38adb57f120",
+            "991c6c230b90aef0",
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": false,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 0.5,
+          "latency_ms": 25.43,
+          "retrieved_chunk_ids": [
+            "ac1af90342ff8e17",
+            "da3ce38adb57f120",
+            "5db6b5fe5ce39aa4",
+            "45650d000845c382",
+            "60a87b48bd2c375a"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "dense"
+    },
+    {
+      "id": "q10",
+      "query": "Explain FastAPI performance",
+      "intent": "SEMANTIC",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.15,
+          "retrieved_chunk_ids": [
+            "691b148b4a40f836",
+            "e2bf6a7860ba8f6d",
+            "07228f3795c0ac4f",
+            "e7f95bc77d7d0594",
+            "51d7efe76a0bb7a5"
+          ]
+        },
+        "dense": {
+          "hit_at_1": false,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 0.5,
+          "latency_ms": 9.57,
+          "retrieved_chunk_ids": [
+            "60a87b48bd2c375a",
+            "5dfe233de710dbb3",
+            "664b81f0374c5348",
+            "691b148b4a40f836",
+            "991c6c230b90aef0"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 16.79,
+          "retrieved_chunk_ids": [
+            "da3ce38adb57f120",
+            "991c6c230b90aef0",
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 33.84,
+          "retrieved_chunk_ids": [
+            "691b148b4a40f836",
+            "991c6c230b90aef0",
+            "60a87b48bd2c375a",
+            "da3ce38adb57f120",
+            "e2bf6a7860ba8f6d"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q11",
+      "query": "What is FastAPI built on?",
+      "intent": "RELATIONAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": true,
+          "mrr": 0.2,
+          "latency_ms": 0.22,
+          "retrieved_chunk_ids": [
+            "664b81f0374c5348",
+            "b928a1368e7b8337",
+            "991c6c230b90aef0",
+            "69a95b69ea9d5a84",
+            "7d914cec5b44fe1e"
+          ]
+        },
+        "dense": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 13.4,
+          "retrieved_chunk_ids": [
+            "664b81f0374c5348",
+            "60a87b48bd2c375a",
+            "e7f95bc77d7d0594",
+            "b928a1368e7b8337",
+            "691b148b4a40f836"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 27.03,
+          "retrieved_chunk_ids": [
+            "da3ce38adb57f120",
+            "991c6c230b90aef0",
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 38.05,
+          "retrieved_chunk_ids": [
+            "664b81f0374c5348",
+            "991c6c230b90aef0",
+            "b928a1368e7b8337",
+            "da3ce38adb57f120",
+            "60a87b48bd2c375a"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q12",
+      "query": "What library provides ORJSONResponse?",
+      "intent": "RELATIONAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.19,
+          "retrieved_chunk_ids": [
+            "05f61145ce2df1b7",
+            "a837779346657301",
+            "a311cc29491ad249",
+            "691b148b4a40f836",
+            "07228f3795c0ac4f"
+          ]
+        },
+        "dense": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 16.52,
+          "retrieved_chunk_ids": [
+            "05f61145ce2df1b7",
+            "3d721b4a16fc036d",
+            "8cdcac56ec0eccce",
+            "a837779346657301",
+            "5be74db2a63bd029"
+          ]
+        },
+        "graph": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 9.5,
+          "retrieved_chunk_ids": [
+            "05f61145ce2df1b7"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 25.4,
+          "retrieved_chunk_ids": [
+            "05f61145ce2df1b7",
+            "a837779346657301",
+            "3d721b4a16fc036d",
+            "a311cc29491ad249",
+            "8cdcac56ec0eccce"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q13",
+      "query": "How does FastAPI relate to OpenAPI?",
+      "intent": "RELATIONAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": false,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 0.5,
+          "latency_ms": 0.26,
+          "retrieved_chunk_ids": [
+            "5db6b5fe5ce39aa4",
+            "c77ca4acea9e162b",
+            "e7f95bc77d7d0594",
+            "5da256863139e8f1",
+            "8dd9cb9d2ab8496b"
+          ]
+        },
+        "dense": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 14.53,
+          "retrieved_chunk_ids": [
+            "60a87b48bd2c375a",
+            "664b81f0374c5348",
+            "e7f95bc77d7d0594",
+            "aef36ca0de77c0b3",
+            "991c6c230b90aef0"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 45.94,
+          "retrieved_chunk_ids": [
+            "da3ce38adb57f120",
+            "991c6c230b90aef0",
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 31.18,
+          "retrieved_chunk_ids": [
+            "e7f95bc77d7d0594",
+            "991c6c230b90aef0",
+            "5db6b5fe5ce39aa4",
+            "60a87b48bd2c375a",
+            "da3ce38adb57f120"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q14",
+      "query": "Explain the FastAPI CLI",
+      "intent": "SEMANTIC",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.19,
+          "retrieved_chunk_ids": [
+            "e7f95bc77d7d0594",
+            "51d7efe76a0bb7a5",
+            "d3e0535cae5aa502",
+            "aef36ca0de77c0b3",
+            "e73c987c91592c02"
+          ]
+        },
+        "dense": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 13.37,
+          "retrieved_chunk_ids": [
+            "e7f95bc77d7d0594",
+            "a1d1896704f930b6",
+            "991c6c230b90aef0",
+            "d3e0535cae5aa502",
+            "60a87b48bd2c375a"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 11.56,
+          "retrieved_chunk_ids": [
+            "da3ce38adb57f120",
+            "e8dca72a83fde7ca",
+            "991c6c230b90aef0",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 25.63,
+          "retrieved_chunk_ids": [
+            "e7f95bc77d7d0594",
+            "991c6c230b90aef0",
+            "d3e0535cae5aa502",
+            "da3ce38adb57f120",
+            "51d7efe76a0bb7a5"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q15",
+      "query": "What server is used to serve FastAPI applications?",
+      "intent": "RELATIONAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": false,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 0.3333333333333333,
+          "latency_ms": 0.31,
+          "retrieved_chunk_ids": [
+            "23c79451438c410b",
+            "5dfe233de710dbb3",
+            "5be74db2a63bd029",
+            "e8dca72a83fde7ca",
+            "a837779346657301"
+          ]
+        },
+        "dense": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": true,
+          "mrr": 0.25,
+          "latency_ms": 11.35,
+          "retrieved_chunk_ids": [
+            "69a95b69ea9d5a84",
+            "664b81f0374c5348",
+            "60a87b48bd2c375a",
+            "5be74db2a63bd029",
+            "e7f95bc77d7d0594"
+          ]
+        },
+        "graph": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 11.55,
+          "retrieved_chunk_ids": [
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17",
+            "da3ce38adb57f120",
+            "991c6c230b90aef0"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 28.78,
+          "retrieved_chunk_ids": [
+            "5be74db2a63bd029",
+            "e8dca72a83fde7ca",
+            "23c79451438c410b",
+            "69a95b69ea9d5a84",
+            "5dfe233de710dbb3"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "graph"
+    },
+    {
+      "id": "q16",
+      "query": "What is the relationship between FastAPI and Pydantic?",
+      "intent": "RELATIONAL",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.32,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "664b81f0374c5348",
+            "a1d1896704f930b6",
+            "de05de89af21155b",
+            "3591c6964f30bff3"
+          ]
+        },
+        "dense": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 13.89,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "ac1af90342ff8e17",
+            "a1d1896704f930b6",
+            "de05de89af21155b",
+            "93ad4012b94b667f"
+          ]
+        },
+        "graph": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 10.91,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "da3ce38adb57f120",
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 29.48,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "a1d1896704f930b6",
+            "ac1af90342ff8e17",
+            "de05de89af21155b",
+            "664b81f0374c5348"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    },
+    {
+      "id": "q17",
+      "query": "What technology is used for API documentation in FastAPI?",
+      "intent": "SEMANTIC",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": true,
+          "mrr": 0.25,
+          "latency_ms": 0.34,
+          "retrieved_chunk_ids": [
+            "e73c987c91592c02",
+            "b928a1368e7b8337",
+            "2e635a728f538213",
+            "c77ca4acea9e162b",
+            "fc15c2e1b30cf685"
+          ]
+        },
+        "dense": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": true,
+          "mrr": 0.2,
+          "latency_ms": 12.35,
+          "retrieved_chunk_ids": [
+            "691b148b4a40f836",
+            "2e635a728f538213",
+            "b928a1368e7b8337",
+            "60a87b48bd2c375a",
+            "c77ca4acea9e162b"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 19.67,
+          "retrieved_chunk_ids": [
+            "5be74db2a63bd029",
+            "e8dca72a83fde7ca",
+            "ac1af90342ff8e17",
+            "da3ce38adb57f120",
+            "991c6c230b90aef0"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": false,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 0.3333333333333333,
+          "latency_ms": 31.42,
+          "retrieved_chunk_ids": [
+            "b928a1368e7b8337",
+            "2e635a728f538213",
+            "c77ca4acea9e162b",
+            "e73c987c91592c02",
+            "691b148b4a40f836"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "hybrid_rrf"
+    },
+    {
+      "id": "q18",
+      "query": "What are the standard FastAPI dependencies?",
+      "intent": "SEMANTIC",
+      "strategies": {
+        "bm25": {
+          "hit_at_1": true,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 1.0,
+          "latency_ms": 0.24,
+          "retrieved_chunk_ids": [
+            "51d7efe76a0bb7a5",
+            "be1e432c97db3077",
+            "41fe03317d7ca3a9",
+            "ac1af90342ff8e17",
+            "5be74db2a63bd029"
+          ]
+        },
+        "dense": {
+          "hit_at_1": false,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 0.3333333333333333,
+          "latency_ms": 10.71,
+          "retrieved_chunk_ids": [
+            "05f61145ce2df1b7",
+            "be1e432c97db3077",
+            "51d7efe76a0bb7a5",
+            "ac1af90342ff8e17",
+            "991c6c230b90aef0"
+          ]
+        },
+        "graph": {
+          "hit_at_1": false,
+          "hit_at_3": false,
+          "hit_at_5": false,
+          "mrr": 0.0,
+          "latency_ms": 14.67,
+          "retrieved_chunk_ids": [
+            "991c6c230b90aef0",
+            "da3ce38adb57f120",
+            "e8dca72a83fde7ca",
+            "5be74db2a63bd029",
+            "ac1af90342ff8e17"
+          ]
+        },
+        "hybrid_rrf": {
+          "hit_at_1": false,
+          "hit_at_3": true,
+          "hit_at_5": true,
+          "mrr": 0.5,
+          "latency_ms": 28.28,
+          "retrieved_chunk_ids": [
+            "ac1af90342ff8e17",
+            "51d7efe76a0bb7a5",
+            "be1e432c97db3077",
+            "991c6c230b90aef0",
+            "5be74db2a63bd029"
+          ]
+        }
+      },
+      "best_strategy_by_mrr": "bm25"
+    }
+  ],
+  "intent_summary": {
+    "RELATIONAL": {
+      "bm25": {
+        "num_queries": 9,
+        "hit_at_1": 0.4444,
+        "hit_at_3": 0.7778,
+        "hit_at_5": 1.0,
+        "mrr": 0.637,
+        "avg_latency_ms": 0.28
+      },
+      "dense": {
+        "num_queries": 9,
+        "hit_at_1": 0.3333,
+        "hit_at_3": 0.3333,
+        "hit_at_5": 0.5556,
+        "mrr": 0.3889,
+        "avg_latency_ms": 15.72
+      },
+      "graph": {
+        "num_queries": 9,
+        "hit_at_1": 0.4444,
+        "hit_at_3": 0.4444,
+        "hit_at_5": 0.4444,
+        "mrr": 0.4444,
+        "avg_latency_ms": 27.95
+      },
+      "hybrid_rrf": {
+        "num_queries": 9,
+        "hit_at_1": 0.4444,
+        "hit_at_3": 0.5556,
+        "hit_at_5": 0.7778,
+        "mrr": 0.537,
+        "avg_latency_ms": 37.84
+      }
+    },
+    "LEXICAL": {
+      "bm25": {
+        "num_queries": 3,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mrr": 1.0,
+        "avg_latency_ms": 0.21
+      },
+      "dense": {
+        "num_queries": 3,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mrr": 1.0,
+        "avg_latency_ms": 12.74
+      },
+      "graph": {
+        "num_queries": 3,
+        "hit_at_1": 0.6667,
+        "hit_at_3": 0.6667,
+        "hit_at_5": 0.6667,
+        "mrr": 0.6667,
+        "avg_latency_ms": 12.48
+      },
+      "hybrid_rrf": {
+        "num_queries": 3,
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mrr": 1.0,
+        "avg_latency_ms": 29.35
+      }
+    },
+    "SEMANTIC": {
+      "bm25": {
+        "num_queries": 6,
+        "hit_at_1": 0.6667,
+        "hit_at_3": 0.6667,
+        "hit_at_5": 0.8333,
+        "mrr": 0.7083,
+        "avg_latency_ms": 0.23
+      },
+      "dense": {
+        "num_queries": 6,
+        "hit_at_1": 0.3333,
+        "hit_at_3": 0.6667,
+        "hit_at_5": 0.8333,
+        "mrr": 0.5056,
+        "avg_latency_ms": 15.23
+      },
+      "graph": {
+        "num_queries": 6,
+        "hit_at_1": 0.1667,
+        "hit_at_3": 0.1667,
+        "hit_at_5": 0.1667,
+        "mrr": 0.1667,
+        "avg_latency_ms": 17.13
+      },
+      "hybrid_rrf": {
+        "num_queries": 6,
+        "hit_at_1": 0.3333,
+        "hit_at_3": 1.0,
+        "hit_at_5": 1.0,
+        "mrr": 0.6389,
+        "avg_latency_ms": 30.09
+      }
+    }
+  },
+  "failures": [
+    {
+      "id": "q03",
+      "query": "Explain FastAPI dependency injection",
+      "intent": "SEMANTIC",
+      "failed_at_recall_5": [
+        "dense",
+        "graph"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25",
+        "hybrid_rrf"
+      ]
+    },
+    {
+      "id": "q04",
+      "query": "Which framework is based on Starlette?",
+      "intent": "RELATIONAL",
+      "failed_at_recall_5": [
+        "graph"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25",
+        "dense",
+        "hybrid_rrf"
+      ]
+    },
+    {
+      "id": "q05",
+      "query": "What does FastAPI use for data validation?",
+      "intent": "RELATIONAL",
+      "failed_at_recall_5": [
+        "dense",
+        "graph"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25",
+        "hybrid_rrf"
+      ]
+    },
+    {
+      "id": "q06",
+      "query": "What does FastAPI use for its ASGI web functionality?",
+      "intent": "RELATIONAL",
+      "failed_at_recall_5": [
+        "dense",
+        "graph"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25",
+        "hybrid_rrf"
+      ]
+    },
+    {
+      "id": "q08",
+      "query": "Find information about OAuth2 support",
+      "intent": "LEXICAL",
+      "failed_at_recall_5": [
+        "graph"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25",
+        "dense",
+        "hybrid_rrf"
+      ]
+    },
+    {
+      "id": "q09",
+      "query": "Explain how FastAPI handles request validation",
+      "intent": "SEMANTIC",
+      "failed_at_recall_5": [
+        "bm25"
+      ],
+      "succeeded_at_recall_5": [
+        "dense",
+        "graph",
+        "hybrid_rrf"
+      ]
+    },
+    {
+      "id": "q10",
+      "query": "Explain FastAPI performance",
+      "intent": "SEMANTIC",
+      "failed_at_recall_5": [
+        "graph"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25",
+        "dense",
+        "hybrid_rrf"
+      ]
+    },
+    {
+      "id": "q11",
+      "query": "What is FastAPI built on?",
+      "intent": "RELATIONAL",
+      "failed_at_recall_5": [
+        "dense",
+        "graph",
+        "hybrid_rrf"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25"
+      ]
+    },
+    {
+      "id": "q13",
+      "query": "How does FastAPI relate to OpenAPI?",
+      "intent": "RELATIONAL",
+      "failed_at_recall_5": [
+        "dense",
+        "graph",
+        "hybrid_rrf"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25"
+      ]
+    },
+    {
+      "id": "q14",
+      "query": "Explain the FastAPI CLI",
+      "intent": "SEMANTIC",
+      "failed_at_recall_5": [
+        "graph"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25",
+        "dense",
+        "hybrid_rrf"
+      ]
+    },
+    {
+      "id": "q17",
+      "query": "What technology is used for API documentation in FastAPI?",
+      "intent": "SEMANTIC",
+      "failed_at_recall_5": [
+        "graph"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25",
+        "dense",
+        "hybrid_rrf"
+      ]
+    },
+    {
+      "id": "q18",
+      "query": "What are the standard FastAPI dependencies?",
+      "intent": "SEMANTIC",
+      "failed_at_recall_5": [
+        "graph"
+      ],
+      "succeeded_at_recall_5": [
+        "bm25",
+        "dense",
+        "hybrid_rrf"
+      ]
+    }
+  ],
+  "strategy_wins_by_mrr": {
+    "bm25": 14,
+    "dense": 2,
+    "graph": 1,
+    "hybrid_rrf": 1
+  },
+  "multi_hop": {
+    "num_queries": 2,
+    "path_accuracy": 1.0,
+    "avg_latency_ms": 7.12
+  }
+}

@@ -1,0 +1,15 @@
+{"id":"r001","text":"FastAPI uses Pydantic.","subject":"FastAPI","predicate":"USES","object":"Pydantic","relation_exists":true}
+{"id":"r002","text":"FastAPI is based on Starlette.","subject":"FastAPI","predicate":"BUILT_ON","object":"Starlette","relation_exists":true}
+{"id":"r003","text":"FastAPI is built on Starlette.","subject":"FastAPI","predicate":"BUILT_ON","object":"Starlette","relation_exists":true}
+{"id":"r004","text":"FastAPI supports OAuth2.","subject":"FastAPI","predicate":"SUPPORTS","object":"OAuth2","relation_exists":true}
+{"id":"r005","text":"FastAPI is compatible with OpenAPI.","subject":"FastAPI","predicate":"COMPATIBLE_WITH","object":"OpenAPI","relation_exists":true}
+{"id":"r006","text":"FastAPI depends on Pydantic and Starlette.","subject":"FastAPI","predicate":"DEPENDS_ON","object":"Pydantic","relation_exists":true}
+{"id":"r007","text":"FastAPI depends on Pydantic and Starlette.","subject":"FastAPI","predicate":"DEPENDS_ON","object":"Starlette","relation_exists":true}
+{"id":"r008","text":"FastAPI provides automatic API documentation.","subject":"FastAPI","predicate":"PROVIDES","object":"API documentation","relation_exists":true}
+{"id":"r009","text":"WebSockets are tested using HTTPX.","subject":"WebSockets","predicate":"TESTED_WITH","object":"HTTPX","relation_exists":true}
+{"id":"r010","text":"WebSockets are based on HTTPX.","subject":"WebSockets","predicate":"BUILT_ON","object":"HTTPX","relation_exists":true}
+{"id":"r011","text":"Python is a programming language.","subject":"Python","predicate":null,"object":null,"relation_exists":false}
+{"id":"r012","text":"Swagger provides interactive API documentation.","subject":"Swagger","predicate":"PROVIDES","object":"API documentation","relation_exists":true}
+{"id":"r013","text":"Pydantic validates Python data.","subject":"Pydantic","predicate":"VALIDATES","object":"Python data","relation_exists":true}
+{"id":"r014","text":"FastAPI and Starlette are both Python technologies.","subject":null,"predicate":null,"object":null,"relation_exists":false}
+{"id":"r015","text":"FastAPI is popular for building APIs.","subject":null,"predicate":null,"object":null,"relation_exists":false}

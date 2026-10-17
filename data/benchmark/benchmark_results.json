@@ -1,0 +1,2439 @@
+{
+  "bm25": {
+    "summary": {
+      "num_queries": 18,
+      "avg_recall_at_1": 0.6111,
+      "avg_recall_at_3": 0.7778,
+      "avg_recall_at_5": 0.9444,
+      "mrr": 0.7213,
+      "avg_latency_ms": 0.26
+    },
+    "queries": [
+      {
+        "id": "q01",
+        "query": "What does FastAPI depend on?",
+        "intent": "RELATIONAL",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 5.548288012073099
+          },
+          {
+            "chunk_id": "7d914cec5b44fe1e",
+            "score": 4.328448371030689
+          },
+          {
+            "chunk_id": "69a95b69ea9d5a84",
+            "score": 3.5192601645368473
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 3.3177865645857834
+          },
+          {
+            "chunk_id": "2667dff93d9b7394",
+            "score": 2.633186337069269
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.46
+      },
+      {
+        "id": "q02",
+        "query": "Which page mentions ORJSONResponse?",
+        "intent": "LEXICAL",
+        "strategy": "bm25",
+        "entity_name": "ORJSONResponse",
+        "retrieved": [
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 3.609196782591931
+          },
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 3.402412978391807
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 2.9505646363307134
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 0.0
+          },
+          {
+            "chunk_id": "07228f3795c0ac4f",
+            "score": 0.0
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.2
+      },
+      {
+        "id": "q03",
+        "query": "Explain FastAPI dependency injection",
+        "intent": "SEMANTIC",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "753f8232429080c9",
+            "score": 10.072613561818025
+          },
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 2.6218246535168026
+          },
+          {
+            "chunk_id": "51d7efe76a0bb7a5",
+            "score": 2.2768681364468386
+          },
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 2.2718275463815014
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 2.0822053722705958
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.19
+      },
+      {
+        "id": "q04",
+        "query": "Which framework is based on Starlette?",
+        "intent": "RELATIONAL",
+        "strategy": "bm25",
+        "entity_name": "Starlette",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 7.521411501108091
+          },
+          {
+            "chunk_id": "c2271b4db4c4622b",
+            "score": 6.9564003596119015
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 6.889915423164317
+          },
+          {
+            "chunk_id": "8dd9cb9d2ab8496b",
+            "score": 5.8695611326021915
+          },
+          {
+            "chunk_id": "7d914cec5b44fe1e",
+            "score": 5.867763405392926
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.2,
+        "latency_ms": 0.25
+      },
+      {
+        "id": "q05",
+        "query": "What does FastAPI use for data validation?",
+        "intent": "RELATIONAL",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "4759f48d4ff512ef",
+            "score": 8.026617984872974
+          },
+          {
+            "chunk_id": "de05de89af21155b",
+            "score": 6.545649948680346
+          },
+          {
+            "chunk_id": "45650d000845c382",
+            "score": 5.958339342908621
+          },
+          {
+            "chunk_id": "d4f78fd6cd3825a7",
+            "score": 5.958339342908621
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 4.881538920356986
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "latency_ms": 0.29
+      },
+      {
+        "id": "q06",
+        "query": "What does FastAPI use for its ASGI web functionality?",
+        "intent": "RELATIONAL",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "7d914cec5b44fe1e",
+            "score": 6.67699846168302
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 4.864332199870127
+          },
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 4.4465503840595195
+          },
+          {
+            "chunk_id": "0a032a9188071eb5",
+            "score": 4.318136179763063
+          },
+          {
+            "chunk_id": "93ad4012b94b667f",
+            "score": 4.175446949771908
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.35
+      },
+      {
+        "id": "q07",
+        "query": "Find documentation related to WebSockets",
+        "intent": "LEXICAL",
+        "strategy": "bm25",
+        "entity_name": "WebSockets",
+        "retrieved": [
+          {
+            "chunk_id": "c2271b4db4c4622b",
+            "score": 4.504778061683931
+          },
+          {
+            "chunk_id": "980d887172b8be96",
+            "score": 3.9097159150636007
+          },
+          {
+            "chunk_id": "66deab1d4e8a57ee",
+            "score": 3.7070375656404138
+          },
+          {
+            "chunk_id": "0a032a9188071eb5",
+            "score": 3.20811480884059
+          },
+          {
+            "chunk_id": "22a1bb1a6c7fd196",
+            "score": 2.827559272922353
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.22
+      },
+      {
+        "id": "q08",
+        "query": "Find information about OAuth2 support",
+        "intent": "LEXICAL",
+        "strategy": "bm25",
+        "entity_name": "OAuth2",
+        "retrieved": [
+          {
+            "chunk_id": "6a3105b222115ae6",
+            "score": 7.634683608775189
+          },
+          {
+            "chunk_id": "eaa6acd81f2bf74e",
+            "score": 4.989688332793101
+          },
+          {
+            "chunk_id": "0578c3bf28a83e1e",
+            "score": 3.7249179710218105
+          },
+          {
+            "chunk_id": "9dab8c68d374d32f",
+            "score": 3.5776312476988825
+          },
+          {
+            "chunk_id": "4dd703b51a57a8f2",
+            "score": 3.4023147360589054
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.21
+      },
+      {
+        "id": "q09",
+        "query": "Explain how FastAPI handles request validation",
+        "intent": "SEMANTIC",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "5db6b5fe5ce39aa4",
+            "score": 7.667430653136011
+          },
+          {
+            "chunk_id": "45650d000845c382",
+            "score": 4.059137467506169
+          },
+          {
+            "chunk_id": "d4f78fd6cd3825a7",
+            "score": 4.059137467506169
+          },
+          {
+            "chunk_id": "4dd703b51a57a8f2",
+            "score": 3.9935263264732628
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 3.856268206138407
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 0.26
+      },
+      {
+        "id": "q10",
+        "query": "Explain FastAPI performance",
+        "intent": "SEMANTIC",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 4.979038394551827
+          },
+          {
+            "chunk_id": "e2bf6a7860ba8f6d",
+            "score": 4.858188600366415
+          },
+          {
+            "chunk_id": "07228f3795c0ac4f",
+            "score": 3.016369049652181
+          },
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 2.6218246535168026
+          },
+          {
+            "chunk_id": "51d7efe76a0bb7a5",
+            "score": 2.2768681364468386
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.15
+      },
+      {
+        "id": "q11",
+        "query": "What is FastAPI built on?",
+        "intent": "RELATIONAL",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 8.597547445732031
+          },
+          {
+            "chunk_id": "b928a1368e7b8337",
+            "score": 7.150512645687333
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 5.548288012073099
+          },
+          {
+            "chunk_id": "69a95b69ea9d5a84",
+            "score": 4.807925028826217
+          },
+          {
+            "chunk_id": "7d914cec5b44fe1e",
+            "score": 4.328448371030689
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.2,
+        "latency_ms": 0.22
+      },
+      {
+        "id": "q12",
+        "query": "What library provides ORJSONResponse?",
+        "intent": "RELATIONAL",
+        "strategy": "bm25",
+        "entity_name": "ORJSONResponse",
+        "retrieved": [
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 3.609196782591931
+          },
+          {
+            "chunk_id": "a837779346657301",
+            "score": 3.498822643896098
+          },
+          {
+            "chunk_id": "a311cc29491ad249",
+            "score": 3.3937221203651267
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 0.0
+          },
+          {
+            "chunk_id": "07228f3795c0ac4f",
+            "score": 0.0
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.18
+      },
+      {
+        "id": "q13",
+        "query": "How does FastAPI relate to OpenAPI?",
+        "intent": "RELATIONAL",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "5db6b5fe5ce39aa4",
+            "score": 4.947885616949133
+          },
+          {
+            "chunk_id": "c77ca4acea9e162b",
+            "score": 4.1398616077341455
+          },
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 3.709376133890606
+          },
+          {
+            "chunk_id": "5da256863139e8f1",
+            "score": 3.3055679954228774
+          },
+          {
+            "chunk_id": "8dd9cb9d2ab8496b",
+            "score": 3.113173859602626
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "latency_ms": 0.24
+      },
+      {
+        "id": "q14",
+        "query": "Explain the FastAPI CLI",
+        "intent": "SEMANTIC",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 6.453649606168252
+          },
+          {
+            "chunk_id": "51d7efe76a0bb7a5",
+            "score": 6.274944265398981
+          },
+          {
+            "chunk_id": "d3e0535cae5aa502",
+            "score": 4.759762425336822
+          },
+          {
+            "chunk_id": "aef36ca0de77c0b3",
+            "score": 4.499361869708832
+          },
+          {
+            "chunk_id": "e73c987c91592c02",
+            "score": 2.997183101543572
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.18
+      },
+      {
+        "id": "q15",
+        "query": "What server is used to serve FastAPI applications?",
+        "intent": "RELATIONAL",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "23c79451438c410b",
+            "score": 6.275536322599088
+          },
+          {
+            "chunk_id": "5dfe233de710dbb3",
+            "score": 6.231587497642381
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 5.780768378044987
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 5.337993514571801
+          },
+          {
+            "chunk_id": "a837779346657301",
+            "score": 5.3318747948398215
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.3333333333333333,
+        "latency_ms": 0.31
+      },
+      {
+        "id": "q16",
+        "query": "What is the relationship between FastAPI and Pydantic?",
+        "intent": "RELATIONAL",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 7.333866157654546
+          },
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 6.26545403252547
+          },
+          {
+            "chunk_id": "a1d1896704f930b6",
+            "score": 5.540656750715519
+          },
+          {
+            "chunk_id": "de05de89af21155b",
+            "score": 4.916308653557927
+          },
+          {
+            "chunk_id": "3591c6964f30bff3",
+            "score": 4.746560895857128
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.31
+      },
+      {
+        "id": "q17",
+        "query": "What technology is used for API documentation in FastAPI?",
+        "intent": "SEMANTIC",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e73c987c91592c02",
+            "score": 6.213918567771829
+          },
+          {
+            "chunk_id": "b928a1368e7b8337",
+            "score": 6.0933793712455575
+          },
+          {
+            "chunk_id": "2e635a728f538213",
+            "score": 5.678732915120211
+          },
+          {
+            "chunk_id": "c77ca4acea9e162b",
+            "score": 5.605425953587174
+          },
+          {
+            "chunk_id": "fc15c2e1b30cf685",
+            "score": 5.4706463994934555
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.25,
+        "latency_ms": 0.34
+      },
+      {
+        "id": "q18",
+        "query": "What are the standard FastAPI dependencies?",
+        "intent": "SEMANTIC",
+        "strategy": "bm25",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "51d7efe76a0bb7a5",
+            "score": 7.359053057629347
+          },
+          {
+            "chunk_id": "be1e432c97db3077",
+            "score": 6.998614635903363
+          },
+          {
+            "chunk_id": "41fe03317d7ca3a9",
+            "score": 6.798785446615644
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 6.70545244220133
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 5.540882290524143
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 0.24
+      }
+    ]
+  },
+  "dense": {
+    "summary": {
+      "num_queries": 18,
+      "avg_recall_at_1": 0.4444,
+      "avg_recall_at_3": 0.5556,
+      "avg_recall_at_5": 0.7222,
+      "mrr": 0.5296,
+      "avg_latency_ms": 14.56
+    },
+    "queries": [
+      {
+        "id": "q01",
+        "query": "What does FastAPI depend on?",
+        "intent": "RELATIONAL",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.7136677503585815
+          },
+          {
+            "chunk_id": "a1d1896704f930b6",
+            "score": 0.5975164175033569
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.5879812240600586
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.5833569169044495
+          },
+          {
+            "chunk_id": "aef36ca0de77c0b3",
+            "score": 0.5736710429191589
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 31.4
+      },
+      {
+        "id": "q02",
+        "query": "Which page mentions ORJSONResponse?",
+        "intent": "LEXICAL",
+        "strategy": "dense",
+        "entity_name": "ORJSONResponse",
+        "retrieved": [
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 0.5246167182922363
+          },
+          {
+            "chunk_id": "8cdcac56ec0eccce",
+            "score": 0.36381787061691284
+          },
+          {
+            "chunk_id": "3d721b4a16fc036d",
+            "score": 0.3569107949733734
+          },
+          {
+            "chunk_id": "854712dcf2703f3d",
+            "score": 0.3135386109352112
+          },
+          {
+            "chunk_id": "8f74d139fdd0208c",
+            "score": 0.3135386109352112
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 17.78
+      },
+      {
+        "id": "q03",
+        "query": "Explain FastAPI dependency injection",
+        "intent": "SEMANTIC",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.5426318049430847
+          },
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 0.538571834564209
+          },
+          {
+            "chunk_id": "a1d1896704f930b6",
+            "score": 0.5158683061599731
+          },
+          {
+            "chunk_id": "aef36ca0de77c0b3",
+            "score": 0.5109090805053711
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.5079456567764282
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 13.47
+      },
+      {
+        "id": "q04",
+        "query": "Which framework is based on Starlette?",
+        "intent": "RELATIONAL",
+        "strategy": "dense",
+        "entity_name": "Starlette",
+        "retrieved": [
+          {
+            "chunk_id": "5dfe233de710dbb3",
+            "score": 0.45044904947280884
+          },
+          {
+            "chunk_id": "6e4c96e352fe03e9",
+            "score": 0.44048094749450684
+          },
+          {
+            "chunk_id": "1346eae2f2ae0ab4",
+            "score": 0.42332035303115845
+          },
+          {
+            "chunk_id": "7d914cec5b44fe1e",
+            "score": 0.40719857811927795
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.38172534108161926
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.25,
+        "latency_ms": 15.53
+      },
+      {
+        "id": "q05",
+        "query": "What does FastAPI use for data validation?",
+        "intent": "RELATIONAL",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.6687794923782349
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.5866342186927795
+          },
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 0.5563732385635376
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.5538647770881653
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 0.5408499240875244
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 11.65
+      },
+      {
+        "id": "q06",
+        "query": "What does FastAPI use for its ASGI web functionality?",
+        "intent": "RELATIONAL",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.6800346374511719
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 0.6746132373809814
+          },
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 0.6152476072311401
+          },
+          {
+            "chunk_id": "b928a1368e7b8337",
+            "score": 0.593442440032959
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.5859084725379944
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 11.95
+      },
+      {
+        "id": "q07",
+        "query": "Find documentation related to WebSockets",
+        "intent": "LEXICAL",
+        "strategy": "dense",
+        "entity_name": "WebSockets",
+        "retrieved": [
+          {
+            "chunk_id": "c2271b4db4c4622b",
+            "score": 0.5027704834938049
+          },
+          {
+            "chunk_id": "0a032a9188071eb5",
+            "score": 0.3947511315345764
+          },
+          {
+            "chunk_id": "fc15c2e1b30cf685",
+            "score": 0.3825226426124573
+          },
+          {
+            "chunk_id": "2e635a728f538213",
+            "score": 0.3776688277721405
+          },
+          {
+            "chunk_id": "22a1bb1a6c7fd196",
+            "score": 0.36733949184417725
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 10.87
+      },
+      {
+        "id": "q08",
+        "query": "Find information about OAuth2 support",
+        "intent": "LEXICAL",
+        "strategy": "dense",
+        "entity_name": "OAuth2",
+        "retrieved": [
+          {
+            "chunk_id": "6a3105b222115ae6",
+            "score": 0.60366290807724
+          },
+          {
+            "chunk_id": "8dd9cb9d2ab8496b",
+            "score": 0.3532011806964874
+          },
+          {
+            "chunk_id": "fc15c2e1b30cf685",
+            "score": 0.33862364292144775
+          },
+          {
+            "chunk_id": "2e635a728f538213",
+            "score": 0.33523494005203247
+          },
+          {
+            "chunk_id": "4bca35be359874c1",
+            "score": 0.327745258808136
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 10.42
+      },
+      {
+        "id": "q09",
+        "query": "Explain how FastAPI handles request validation",
+        "intent": "SEMANTIC",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.7422549724578857
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.5199036598205566
+          },
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 0.49701255559921265
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.48878005146980286
+          },
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 0.46617981791496277
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 11.59
+      },
+      {
+        "id": "q10",
+        "query": "Explain FastAPI performance",
+        "intent": "SEMANTIC",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.6327322721481323
+          },
+          {
+            "chunk_id": "5dfe233de710dbb3",
+            "score": 0.6186181306838989
+          },
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 0.5668865442276001
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 0.5583833456039429
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.5528383851051331
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "latency_ms": 13.4
+      },
+      {
+        "id": "q11",
+        "query": "What is FastAPI built on?",
+        "intent": "RELATIONAL",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 0.7093921899795532
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.7066515684127808
+          },
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 0.6388814449310303
+          },
+          {
+            "chunk_id": "b928a1368e7b8337",
+            "score": 0.6316245794296265
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 0.629117488861084
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 10.81
+      },
+      {
+        "id": "q12",
+        "query": "What library provides ORJSONResponse?",
+        "intent": "RELATIONAL",
+        "strategy": "dense",
+        "entity_name": "ORJSONResponse",
+        "retrieved": [
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 0.6345666646957397
+          },
+          {
+            "chunk_id": "3d721b4a16fc036d",
+            "score": 0.39416271448135376
+          },
+          {
+            "chunk_id": "8cdcac56ec0eccce",
+            "score": 0.38302871584892273
+          },
+          {
+            "chunk_id": "a837779346657301",
+            "score": 0.35370755195617676
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.352247416973114
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 11.8
+      },
+      {
+        "id": "q13",
+        "query": "How does FastAPI relate to OpenAPI?",
+        "intent": "RELATIONAL",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.6629618406295776
+          },
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 0.6123666167259216
+          },
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 0.6036811470985413
+          },
+          {
+            "chunk_id": "aef36ca0de77c0b3",
+            "score": 0.5881237983703613
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.5858592987060547
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 19.32
+      },
+      {
+        "id": "q14",
+        "query": "Explain the FastAPI CLI",
+        "intent": "SEMANTIC",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 0.7249665260314941
+          },
+          {
+            "chunk_id": "a1d1896704f930b6",
+            "score": 0.7127653360366821
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.6296088695526123
+          },
+          {
+            "chunk_id": "d3e0535cae5aa502",
+            "score": 0.6147657036781311
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.6031378507614136
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 13.88
+      },
+      {
+        "id": "q15",
+        "query": "What server is used to serve FastAPI applications?",
+        "intent": "RELATIONAL",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "69a95b69ea9d5a84",
+            "score": 0.6706007122993469
+          },
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 0.6583553552627563
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.6543560028076172
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.6321356892585754
+          },
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 0.5964691638946533
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.25,
+        "latency_ms": 15.51
+      },
+      {
+        "id": "q16",
+        "query": "What is the relationship between FastAPI and Pydantic?",
+        "intent": "RELATIONAL",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.7693297863006592
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.5874961018562317
+          },
+          {
+            "chunk_id": "a1d1896704f930b6",
+            "score": 0.5364775657653809
+          },
+          {
+            "chunk_id": "de05de89af21155b",
+            "score": 0.5189603567123413
+          },
+          {
+            "chunk_id": "93ad4012b94b667f",
+            "score": 0.5023499131202698
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 15.27
+      },
+      {
+        "id": "q17",
+        "query": "What technology is used for API documentation in FastAPI?",
+        "intent": "SEMANTIC",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 0.7048941850662231
+          },
+          {
+            "chunk_id": "2e635a728f538213",
+            "score": 0.673696756362915
+          },
+          {
+            "chunk_id": "b928a1368e7b8337",
+            "score": 0.6518080234527588
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.6510151624679565
+          },
+          {
+            "chunk_id": "c77ca4acea9e162b",
+            "score": 0.6493691205978394
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.2,
+        "latency_ms": 17.43
+      },
+      {
+        "id": "q18",
+        "query": "What are the standard FastAPI dependencies?",
+        "intent": "SEMANTIC",
+        "strategy": "dense",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 0.6563454866409302
+          },
+          {
+            "chunk_id": "be1e432c97db3077",
+            "score": 0.624896764755249
+          },
+          {
+            "chunk_id": "51d7efe76a0bb7a5",
+            "score": 0.6232293844223022
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.6167644262313843
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.6050891876220703
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.3333333333333333,
+        "latency_ms": 10.08
+      }
+    ]
+  },
+  "graph": {
+    "summary": {
+      "num_queries": 18,
+      "avg_recall_at_1": 0.3333,
+      "avg_recall_at_3": 0.3333,
+      "avg_recall_at_5": 0.3333,
+      "mrr": 0.3333,
+      "avg_latency_ms": 22.36
+    },
+    "queries": [
+      {
+        "id": "q01",
+        "query": "What does FastAPI depend on?",
+        "intent": "RELATIONAL",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.5035
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.3135
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.3135
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.28500000000000003
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.1235
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 75.15
+      },
+      {
+        "id": "q02",
+        "query": "Which page mentions ORJSONResponse?",
+        "intent": "LEXICAL",
+        "strategy": "graph",
+        "entity_name": "ORJSONResponse",
+        "retrieved": [
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 0.33249999999999996
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 100.3
+      },
+      {
+        "id": "q03",
+        "query": "Explain FastAPI dependency injection",
+        "intent": "SEMANTIC",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.510625
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.320625
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.320625
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.28500000000000003
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.130625
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 22.15
+      },
+      {
+        "id": "q04",
+        "query": "Which framework is based on Starlette?",
+        "intent": "RELATIONAL",
+        "strategy": "graph",
+        "entity_name": "Starlette",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.42749999999999994
+          },
+          {
+            "chunk_id": "6e4c96e352fe03e9",
+            "score": 0.28500000000000003
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 10.67
+      },
+      {
+        "id": "q05",
+        "query": "What does FastAPI use for data validation?",
+        "intent": "RELATIONAL",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.6107142857142858
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.4953571428571429
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.4953571428571429
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.42071428571428565
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.4003571428571429
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 14.55
+      },
+      {
+        "id": "q06",
+        "query": "What does FastAPI use for its ASGI web functionality?",
+        "intent": "RELATIONAL",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.49083333333333334
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.49083333333333334
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.3958333333333333
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.3166666666666667
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.3166666666666667
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 13.49
+      },
+      {
+        "id": "q07",
+        "query": "Find documentation related to WebSockets",
+        "intent": "LEXICAL",
+        "strategy": "graph",
+        "entity_name": "WebSockets",
+        "retrieved": [],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 8.18
+      },
+      {
+        "id": "q08",
+        "query": "Find information about OAuth2 support",
+        "intent": "LEXICAL",
+        "strategy": "graph",
+        "entity_name": "OAuth2",
+        "retrieved": [],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 8.16
+      },
+      {
+        "id": "q09",
+        "query": "Explain how FastAPI handles request validation",
+        "intent": "SEMANTIC",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.59375
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.40375
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.30874999999999997
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.28500000000000003
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.21375
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 39.66
+      },
+      {
+        "id": "q10",
+        "query": "Explain FastAPI performance",
+        "intent": "SEMANTIC",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.33249999999999996
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.33249999999999996
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.33249999999999996
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.28500000000000003
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.1425
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 20.66
+      },
+      {
+        "id": "q11",
+        "query": "What is FastAPI built on?",
+        "intent": "RELATIONAL",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.320625
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.320625
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.320625
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.28500000000000003
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.130625
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 14.62
+      },
+      {
+        "id": "q12",
+        "query": "What library provides ORJSONResponse?",
+        "intent": "RELATIONAL",
+        "strategy": "graph",
+        "entity_name": "ORJSONResponse",
+        "retrieved": [
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 0.33249999999999996
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 10.73
+      },
+      {
+        "id": "q13",
+        "query": "How does FastAPI relate to OpenAPI?",
+        "intent": "RELATIONAL",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.3135
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.3135
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.3135
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.28500000000000003
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.1235
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 10.27
+      },
+      {
+        "id": "q14",
+        "query": "Explain the FastAPI CLI",
+        "intent": "SEMANTIC",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.35624999999999996
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.35624999999999996
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.320625
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.320625
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.16624999999999998
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 12.43
+      },
+      {
+        "id": "q15",
+        "query": "What server is used to serve FastAPI applications?",
+        "intent": "RELATIONAL",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.6174999999999999
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.6174999999999999
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.33249999999999996
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.30874999999999997
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.30874999999999997
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 9.57
+      },
+      {
+        "id": "q16",
+        "query": "What is the relationship between FastAPI and Pydantic?",
+        "intent": "RELATIONAL",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.7532142857142857
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.44107142857142856
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.3460714285714286
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.3257142857142857
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.2307142857142857
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 10.91
+      },
+      {
+        "id": "q17",
+        "query": "What technology is used for API documentation in FastAPI?",
+        "intent": "SEMANTIC",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.5157142857142858
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.475
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.3257142857142857
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.3053571428571429
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.28500000000000003
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 10.06
+      },
+      {
+        "id": "q18",
+        "query": "What are the standard FastAPI dependencies?",
+        "intent": "SEMANTIC",
+        "strategy": "graph",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.49874999999999997
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.33249999999999996
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.33249999999999996
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.30874999999999997
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.16624999999999998
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 10.96
+      }
+    ]
+  },
+  "hybrid_rrf": {
+    "summary": {
+      "num_queries": 18,
+      "avg_recall_at_1": 0.5,
+      "avg_recall_at_3": 0.8333,
+      "avg_recall_at_5": 0.8889,
+      "mrr": 0.6528,
+      "avg_latency_ms": 29.51
+    },
+    "queries": [
+      {
+        "id": "q01",
+        "query": "What does FastAPI depend on?",
+        "intent": "RELATIONAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.04918032786885246
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.03149801587301587
+          },
+          {
+            "chunk_id": "7d914cec5b44fe1e",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "a1d1896704f930b6",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.016129032258064516
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 31.51
+      },
+      {
+        "id": "q02",
+        "query": "Which page mentions ORJSONResponse?",
+        "intent": "LEXICAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "ORJSONResponse",
+        "retrieved": [
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 0.04918032786885246
+          },
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "8cdcac56ec0eccce",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.015873015873015872
+          },
+          {
+            "chunk_id": "3d721b4a16fc036d",
+            "score": 0.015873015873015872
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 23.82
+      },
+      {
+        "id": "q03",
+        "query": "Explain FastAPI dependency injection",
+        "intent": "SEMANTIC",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.032266458495966696
+          },
+          {
+            "chunk_id": "753f8232429080c9",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 0.016129032258064516
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "latency_ms": 33.52
+      },
+      {
+        "id": "q04",
+        "query": "Which framework is based on Starlette?",
+        "intent": "RELATIONAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "Starlette",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.03278688524590164
+          },
+          {
+            "chunk_id": "6e4c96e352fe03e9",
+            "score": 0.03225806451612903
+          },
+          {
+            "chunk_id": "7d914cec5b44fe1e",
+            "score": 0.031009615384615385
+          },
+          {
+            "chunk_id": "5dfe233de710dbb3",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "c2271b4db4c4622b",
+            "score": 0.016129032258064516
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.3333333333333333,
+        "latency_ms": 26.44
+      },
+      {
+        "id": "q05",
+        "query": "What does FastAPI use for data validation?",
+        "intent": "RELATIONAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.046634615384615385
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.03278688524590164
+          },
+          {
+            "chunk_id": "4759f48d4ff512ef",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "de05de89af21155b",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.016129032258064516
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.25,
+        "latency_ms": 28.08
+      },
+      {
+        "id": "q06",
+        "query": "What does FastAPI use for its ASGI web functionality?",
+        "intent": "RELATIONAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 0.03225806451612903
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.0315136476426799
+          },
+          {
+            "chunk_id": "7d914cec5b44fe1e",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.01639344262295082
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.3333333333333333,
+        "latency_ms": 31.31
+      },
+      {
+        "id": "q07",
+        "query": "Find documentation related to WebSockets",
+        "intent": "LEXICAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "WebSockets",
+        "retrieved": [
+          {
+            "chunk_id": "c2271b4db4c4622b",
+            "score": 0.03278688524590164
+          },
+          {
+            "chunk_id": "0a032a9188071eb5",
+            "score": 0.031754032258064516
+          },
+          {
+            "chunk_id": "22a1bb1a6c7fd196",
+            "score": 0.03076923076923077
+          },
+          {
+            "chunk_id": "980d887172b8be96",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "66deab1d4e8a57ee",
+            "score": 0.015873015873015872
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 27.53
+      },
+      {
+        "id": "q08",
+        "query": "Find information about OAuth2 support",
+        "intent": "LEXICAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "OAuth2",
+        "retrieved": [
+          {
+            "chunk_id": "6a3105b222115ae6",
+            "score": 0.03278688524590164
+          },
+          {
+            "chunk_id": "eaa6acd81f2bf74e",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "8dd9cb9d2ab8496b",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "0578c3bf28a83e1e",
+            "score": 0.015873015873015872
+          },
+          {
+            "chunk_id": "fc15c2e1b30cf685",
+            "score": 0.015873015873015872
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 29.96
+      },
+      {
+        "id": "q09",
+        "query": "Explain how FastAPI handles request validation",
+        "intent": "SEMANTIC",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.04639423076923077
+          },
+          {
+            "chunk_id": "da3ce38adb57f120",
+            "score": 0.03278688524590164
+          },
+          {
+            "chunk_id": "5db6b5fe5ce39aa4",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "45650d000845c382",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.016129032258064516
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "latency_ms": 28.32
+      },
+      {
+        "id": "q10",
+        "query": "Explain FastAPI performance",
+        "intent": "SEMANTIC",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 0.032018442622950824
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.03125763125763126
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "e2bf6a7860ba8f6d",
+            "score": 0.016129032258064516
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 29.15
+      },
+      {
+        "id": "q11",
+        "query": "What is FastAPI built on?",
+        "intent": "RELATIONAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 0.03278688524590164
+          },
+          {
+            "chunk_id": "b928a1368e7b8337",
+            "score": 0.031754032258064516
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.031746031746031744
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.016129032258064516
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 29.01
+      },
+      {
+        "id": "q12",
+        "query": "What library provides ORJSONResponse?",
+        "intent": "RELATIONAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "ORJSONResponse",
+        "retrieved": [
+          {
+            "chunk_id": "05f61145ce2df1b7",
+            "score": 0.04918032786885246
+          },
+          {
+            "chunk_id": "a837779346657301",
+            "score": 0.031754032258064516
+          },
+          {
+            "chunk_id": "3d721b4a16fc036d",
+            "score": 0.016129032258064516
+          },
+          {
+            "chunk_id": "a311cc29491ad249",
+            "score": 0.015873015873015872
+          },
+          {
+            "chunk_id": "8cdcac56ec0eccce",
+            "score": 0.015873015873015872
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 33.1
+      },
+      {
+        "id": "q13",
+        "query": "How does FastAPI relate to OpenAPI?",
+        "intent": "RELATIONAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 0.031746031746031744
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.03125763125763126
+          },
+          {
+            "chunk_id": "5db6b5fe5ce39aa4",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "60a87b48bd2c375a",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.01639344262295082
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 0.0,
+        "recall_at_5": 0.0,
+        "mrr": 0.0,
+        "latency_ms": 31.91
+      },
+      {
+        "id": "q14",
+        "query": "Explain the FastAPI CLI",
+        "intent": "SEMANTIC",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "e7f95bc77d7d0594",
+            "score": 0.03278688524590164
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.031746031746031744
+          },
+          {
+            "chunk_id": "d3e0535cae5aa502",
+            "score": 0.03149801587301587
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "51d7efe76a0bb7a5",
+            "score": 0.016129032258064516
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 30.24
+      },
+      {
+        "id": "q15",
+        "query": "What server is used to serve FastAPI applications?",
+        "intent": "RELATIONAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.04762704813108039
+          },
+          {
+            "chunk_id": "e8dca72a83fde7ca",
+            "score": 0.032018442622950824
+          },
+          {
+            "chunk_id": "23c79451438c410b",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "69a95b69ea9d5a84",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "5dfe233de710dbb3",
+            "score": 0.016129032258064516
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 30.97
+      },
+      {
+        "id": "q16",
+        "query": "What is the relationship between FastAPI and Pydantic?",
+        "intent": "RELATIONAL",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.04918032786885246
+          },
+          {
+            "chunk_id": "a1d1896704f930b6",
+            "score": 0.031746031746031744
+          },
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.0315136476426799
+          },
+          {
+            "chunk_id": "de05de89af21155b",
+            "score": 0.03125
+          },
+          {
+            "chunk_id": "664b81f0374c5348",
+            "score": 0.016129032258064516
+          }
+        ],
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 1.0,
+        "latency_ms": 25.76
+      },
+      {
+        "id": "q17",
+        "query": "What technology is used for API documentation in FastAPI?",
+        "intent": "SEMANTIC",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "b928a1368e7b8337",
+            "score": 0.03200204813108039
+          },
+          {
+            "chunk_id": "2e635a728f538213",
+            "score": 0.03200204813108039
+          },
+          {
+            "chunk_id": "c77ca4acea9e162b",
+            "score": 0.031009615384615385
+          },
+          {
+            "chunk_id": "e73c987c91592c02",
+            "score": 0.01639344262295082
+          },
+          {
+            "chunk_id": "691b148b4a40f836",
+            "score": 0.01639344262295082
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.3333333333333333,
+        "latency_ms": 28.41
+      },
+      {
+        "id": "q18",
+        "query": "What are the standard FastAPI dependencies?",
+        "intent": "SEMANTIC",
+        "strategy": "hybrid_rrf",
+        "entity_name": "FastAPI",
+        "retrieved": [
+          {
+            "chunk_id": "ac1af90342ff8e17",
+            "score": 0.046634615384615385
+          },
+          {
+            "chunk_id": "51d7efe76a0bb7a5",
+            "score": 0.032266458495966696
+          },
+          {
+            "chunk_id": "be1e432c97db3077",
+            "score": 0.03225806451612903
+          },
+          {
+            "chunk_id": "991c6c230b90aef0",
+            "score": 0.03177805800756621
+          },
+          {
+            "chunk_id": "5be74db2a63bd029",
+            "score": 0.031009615384615385
+          }
+        ],
+        "recall_at_1": 0.0,
+        "recall_at_3": 1.0,
+        "recall_at_5": 1.0,
+        "mrr": 0.5,
+        "latency_ms": 32.22
+      }
+    ]
+  },
+  "multi_hop": {
+    "summary": {
+      "num_queries": 2,
+      "path_accuracy": 1.0,
+      "avg_latency_ms": 8.11
+    },
+    "queries": [
+      {
+        "id": "q19",
+        "query": "What does FastAPI depend on that also uses HTTPX?",
+        "intent": "MULTI_HOP",
+        "strategy": "graph_multi_hop",
+        "path_found": true,
+        "path_correct": true,
+        "latency_ms": 7.71
+      },
+      {
+        "id": "q20",
+        "query": "Which dependency does FastAPI depend on that also uses HTTPX?",
+        "intent": "MULTI_HOP",
+        "strategy": "graph_multi_hop",
+        "path_found": true,
+        "path_correct": true,
+        "latency_ms": 8.5
+      }
+    ]
+  }
+}
