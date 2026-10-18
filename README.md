@@ -18,18 +18,19 @@ It connects entities and relationships extracted from web documentation, retriev
 
 ```mermaid
 flowchart TD
-    A[React + TypeScript Dashboard] --> B[FastAPI Backend]
-    B --> C[Query Router and Planner]
-    C --> D[BM25 Retrieval]
-    C --> E[Dense Semantic Retrieval]
-    C --> F[Graph and Multi-Hop Retrieval]
-    F <--> G[(Neo4j Knowledge Graph)]
-    D --> H[Evidence Aggregation]
+    A["React + TypeScript Dashboard"] --> B["FastAPI Backend"]
+    B --> C["Query Router and Planner"]
+    C --> D["BM25 Retrieval"]
+    C --> E["Dense Semantic Retrieval"]
+    C --> F["Graph and Multi-Hop Retrieval"]
+    F --> G[("Neo4j Knowledge Graph")]
+    G --> F
+    D --> H["Evidence Aggregation"]
     E --> H
     F --> H
-    H --> I[Answer Synthesis]
-    I --> J[Faithfulness Verification]
-    J --> K[Answer and Citations]
+    H --> I["Answer Synthesis"]
+    I --> J["Faithfulness Verification"]
+    J --> K["Answer and Citations"]
     K --> A
 ```
 
