@@ -1859,3 +1859,45 @@ h1 span {
     grid-column: 1 / -1;
   }
 }
+
+/* Structured relationship shown above the original citation */
+.citation-relation {
+  padding: 12px 14px;
+  border: 1px solid rgba(101, 230, 208, 0.2);
+  border-radius: 8px;
+  background: rgba(101, 230, 208, 0.06);
+  color: #d9fff7 !important;
+  font-size: 13px !important;
+  line-height: 1.7;
+}
+
+.citation-relation strong {
+  color: #f2f7fb;
+  font-weight: 600;
+}
+
+.citation-relation span {
+  color: #65e6d0;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+}
+
+/* Preserve and visually separate the exact source text */
+.citation-source-excerpt {
+  margin-top: 12px !important;
+  padding-top: 12px;
+  border-top: 1px solid #26313d;
+  color: #9caabc !important;
+  font-size: 11px !important;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.citation-excerpt-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #77879b;
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 1px;
+}

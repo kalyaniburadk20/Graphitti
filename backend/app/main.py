@@ -1,4 +1,5 @@
 import logging
+import os
 import json
 from pathlib import Path
 from app.graph.neo4j_client import Neo4jClient
@@ -49,13 +50,19 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# Allow the local Vite frontend to call this API.
+# Allow explicitly configured frontend origins.
+_allowed_origins = [
+    origin.strip().rstrip("/")
+    for origin in os.getenv(
+        "GRAPHITTI_ALLOWED_ORIGINS",
+        "http://localhost:5173,http://127.0.0.1:5173",
+    ).split(",")
+    if origin.strip()
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-    ],
+    allow_origins=_allowed_origins,
     allow_credentials=False,
     allow_methods=["GET", "POST"],
     allow_headers=["Content-Type"],
@@ -338,15 +345,29 @@ def crawl(request: CrawlRequest):
             max_pages=request.max_pages,
         )
 
+        if not pages:
+            raise HTTPException(
+                status_code=400,
+                detail="No pages could be crawled. Check the URL and website access.",
+            )
+
         output_path = save_pages(
             pages,
             filename="crawl_pages.jsonl",
         )
 
+        # Process crawled HTML and ingest the generated knowledge
+        # into the existing Neo4j graph.
+        from app.ingestion_pipeline import process_crawled_pages
+
+        ingestion = process_crawled_pages(pages)
+
         return {
+            "status": "completed",
             "start_url": request.url,
             "pages_crawled": len(pages),
             "dataset": str(output_path),
+            "ingestion": ingestion,
             "pages": [
                 {
                     "url": page.url,
@@ -360,10 +381,16 @@ def crawl(request: CrawlRequest):
             ],
         }
 
+    except HTTPException:
+        raise
+
     except Exception as exc:
-        logger.exception("Website crawling failed")
+        logger.exception("Website crawling and ingestion failed")
 
         raise HTTPException(
             status_code=500,
-            detail="Website crawling failed. Check the backend logs.",
+            detail=(
+                "Website crawling or graph ingestion failed. "
+                "Check the backend logs."
+            ),
         ) from exc

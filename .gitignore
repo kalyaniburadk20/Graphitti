@@ -30,3 +30,5 @@ Thumbs.db
 # Runtime trace logs
 backend/data/logs/
 data/logs/
+
+data/processed_backup*/

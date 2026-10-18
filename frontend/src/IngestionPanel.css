@@ -1,0 +1,344 @@
+.ingestion-section {
+  margin-bottom: 32px;
+  padding: 28px;
+  border: 1px solid var(--border-color, rgba(148, 163, 184, 0.18));
+  border-radius: 18px;
+  background: var(--panel-background, #11161d);
+}
+
+.ingestion-heading,
+.ingestion-result-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ingestion-heading h2 {
+  margin: 10px 0 8px;
+  color: var(--text-primary, #f2f5f9);
+  font-size: 24px;
+  letter-spacing: -0.6px;
+}
+
+.ingestion-heading p {
+  max-width: 620px;
+  margin: 0;
+  color: var(--text-secondary, #9ca8b7);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.ingestion-icon {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  place-items: center;
+  border: 1px solid rgba(101, 230, 208, 0.25);
+  border-radius: 13px;
+  background: rgba(101, 230, 208, 0.08);
+  color: #65e6d0;
+  font-size: 22px;
+}
+
+.ingestion-form {
+  margin-top: 26px;
+}
+
+.ingestion-form > label,
+.ingestion-options label {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--text-primary, #e7ebf0);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.website-input-row {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+}
+
+.website-input-row input {
+  min-width: 0;
+  flex: 1;
+  padding: 14px 16px;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 10px;
+  outline: none;
+  background: #0c1117;
+  color: #f2f5f9;
+  font: inherit;
+  font-size: 14px;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.website-input-row input:focus,
+.ingestion-options select:focus,
+.ingestion-options input:focus {
+  border-color: #65e6d0;
+  box-shadow: 0 0 0 3px rgba(101, 230, 208, 0.1);
+}
+
+.website-input-row input::placeholder {
+  color: #687587;
+}
+
+.ingestion-submit {
+  min-width: 160px;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.ingestion-submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.ingestion-options {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.ingestion-options select,
+.ingestion-options input {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 43px;
+  padding: 10px 12px;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 9px;
+  outline: none;
+  background: #0c1117;
+  color: #e7ebf0;
+  font: inherit;
+  font-size: 13px;
+}
+
+.ingestion-hint {
+  margin: 15px 0 0;
+  color: #8491a2;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.ingestion-progress,
+.ingestion-error {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-top: 22px;
+  padding: 17px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 12px;
+  background: #0c1117;
+  color: #e7ebf0;
+}
+
+.ingestion-progress strong,
+.ingestion-error strong {
+  display: block;
+  font-size: 14px;
+}
+
+.ingestion-progress p,
+.ingestion-error p {
+  margin: 6px 0 0;
+  color: #aab5c3;
+  font-size: 13px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.ingestion-error {
+  display: block;
+  border-color: rgba(248, 113, 113, 0.3);
+}
+
+.ingestion-error strong {
+  color: #fca5a5;
+}
+
+.ingestion-error small {
+  display: block;
+  margin-top: 10px;
+  color: #9ca8b7;
+  line-height: 1.6;
+}
+
+.ingestion-spinner {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border: 2px solid rgba(101, 230, 208, 0.2);
+  border-top-color: #65e6d0;
+  border-radius: 50%;
+  animation: ingestion-spin 0.8s linear infinite;
+}
+
+@keyframes ingestion-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ingestion-result {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.ingestion-result h3 {
+  margin: 8px 0 0;
+  color: #f2f5f9;
+  font-size: 20px;
+}
+
+.ingestion-source-link {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 15px;
+  color: #65e6d0;
+  font-size: 13px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.ingestion-source-link:hover {
+  text-decoration: underline;
+}
+
+.ingestion-metrics {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.ingestion-metrics > div {
+  min-width: 0;
+  padding: 15px 12px;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: 11px;
+  background: #0c1117;
+}
+
+.ingestion-metrics span {
+  display: block;
+  color: #98a5b5;
+  font-size: 12px;
+}
+
+.ingestion-metrics strong {
+  display: block;
+  margin-top: 8px;
+  color: #f2f5f9;
+  font-size: 25px;
+  font-variant-numeric: tabular-nums;
+}
+
+.ingestion-graph-status {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 19px;
+  color: #b8c4d1;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.ingestion-page-list {
+  margin-top: 24px;
+}
+
+.ingestion-page-list h4 {
+  margin: 0 0 10px;
+  color: #e7ebf0;
+  font-size: 13px;
+}
+
+.ingestion-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 13px 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.13);
+  color: #aeb9c6;
+  text-decoration: none;
+}
+
+.ingestion-page > span:first-child {
+  min-width: 0;
+}
+
+.ingestion-page strong,
+.ingestion-page small {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ingestion-page strong {
+  color: #e7ebf0;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.ingestion-page small {
+  margin-top: 5px;
+  color: #8491a2;
+  font-size: 11px;
+}
+
+.ingestion-page > span:last-child {
+  flex-shrink: 0;
+  color: #65e6d0;
+}
+
+.ingestion-page:hover strong {
+  color: #65e6d0;
+}
+
+@media (max-width: 720px) {
+  .ingestion-section {
+    padding: 20px;
+  }
+
+  .website-input-row {
+    flex-direction: column;
+  }
+
+  .ingestion-submit {
+    width: 100%;
+    min-height: 46px;
+  }
+
+  .ingestion-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ingestion-metrics > div:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 440px) {
+  .ingestion-section {
+    padding: 16px;
+  }
+
+  .ingestion-options {
+    grid-template-columns: 1fr;
+  }
+
+  .ingestion-heading h2 {
+    font-size: 21px;
+  }
+}

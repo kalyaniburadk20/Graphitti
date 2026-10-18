@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react'
+import IngestionPanel from './IngestionPanel'
 import './App.css'
+const API_BASE_URL = (
+  import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
+).replace(/\/$/, '')
 
 type QueryCitation = {
   source_url: string
@@ -7,6 +11,9 @@ type QueryCitation = {
   chunk_id: string
   confidence: number
   claim_id: string | null
+  subject?: string | null
+  predicate?: string | null
+  object?: string | null
 }
 
 type QueryPlanStep = {
@@ -148,6 +155,7 @@ function App() {
 
   const [graphData, setGraphData] =
   useState<GraphSnapshot | null>(null)
+  const [graphRefreshKey, setGraphRefreshKey] = useState(0)
 
   const [benchmarkData, setBenchmarkData] =
   useState<BenchmarkSnapshot | null>(null)
@@ -171,7 +179,7 @@ useEffect(() => {
   const loadGraph = async () => {
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/graph',
+        `${API_BASE_URL}/graph`,
       )
 
       if (!response.ok) {
@@ -206,7 +214,7 @@ useEffect(() => {
   return () => {
     active = false
   }
-}, [])
+}, [graphRefreshKey])
 
   const graphNodesForView = (() => {
   const uniqueNodes = new Map<string, GraphNode>()
@@ -350,7 +358,7 @@ useEffect(() => {
   const loadBenchmark = async () => {
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/benchmark',
+        `${API_BASE_URL}/benchmark`,
       )
 
       if (!response.ok) {
@@ -399,7 +407,7 @@ useEffect(() => {
 
   try {
     const response = await fetch(
-      'http://127.0.0.1:8000/query',
+      `${API_BASE_URL}/query`,
       {
         method: 'POST',
         headers: {
@@ -588,6 +596,9 @@ useEffect(() => {
             </div>
           </section>
 
+          <IngestionPanel
+  onIngested={() => setGraphRefreshKey((key) => key + 1)}
+/>
           <section className="query-section">
             <div className="section-heading">
               <div>
@@ -720,7 +731,22 @@ useEffect(() => {
                   SOURCE {index + 1}
                 </span>
 
-                <p>{citation.source_sentence}</p>
+                <>
+  {citation.subject && citation.predicate && citation.object && (
+    <p className="citation-relation">
+      <strong>{citation.subject}</strong>
+      {' — '}
+      <span>{citation.predicate}</span>
+      {' → '}
+      <strong>{citation.object}</strong>
+    </p>
+  )}
+
+  <p className="citation-source-excerpt">
+    <span className="citation-excerpt-label">SOURCE EXCERPT</span>
+    {citation.source_sentence}
+  </p>
+</>
 
                 <div className="api-citation-footer">
                   <span>
@@ -1265,7 +1291,22 @@ y={labelY + 4}
                 SOURCE {index + 1}
               </span>
 
-              <p>{citation.source_sentence}</p>
+              <>
+  {citation.subject && citation.predicate && citation.object && (
+    <p className="citation-relation">
+      <strong>{citation.subject}</strong>
+      {' — '}
+      <span>{citation.predicate}</span>
+      {' → '}
+      <strong>{citation.object}</strong>
+    </p>
+  )}
+
+  <p className="citation-source-excerpt">
+    <span className="citation-excerpt-label">SOURCE EXCERPT</span>
+    {citation.source_sentence}
+  </p>
+</>
 
               <div className="api-citation-footer">
                 <span>
@@ -1303,7 +1344,22 @@ y={labelY + 4}
               SOURCE {index + 1}
             </span>
 
-            <p>{citation.source_sentence}</p>
+            <>
+  {citation.subject && citation.predicate && citation.object && (
+    <p className="citation-relation">
+      <strong>{citation.subject}</strong>
+      {' — '}
+      <span>{citation.predicate}</span>
+      {' → '}
+      <strong>{citation.object}</strong>
+    </p>
+  )}
+
+  <p className="citation-source-excerpt">
+    <span className="citation-excerpt-label">SOURCE EXCERPT</span>
+    {citation.source_sentence}
+  </p>
+</>
 
             <div className="api-citation-footer">
               <span>

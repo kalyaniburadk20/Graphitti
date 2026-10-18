@@ -1,0 +1,70 @@
+services:
+  neo4j:
+    image: neo4j:latest
+    restart: unless-stopped
+    environment:
+      NEO4J_AUTH: "${NEO4J_USERNAME:-neo4j}/${NEO4J_PASSWORD:?Set NEO4J_PASSWORD in root .env}"
+      GRAPHITTI_NEO4J_USERNAME: "${NEO4J_USERNAME:-neo4j}"
+      GRAPHITTI_NEO4J_PASSWORD: "${NEO4J_PASSWORD:?Set NEO4J_PASSWORD in root .env}"
+    ports:
+      - "127.0.0.1:7475:7474"
+      - "127.0.0.1:7688:7687"
+    volumes:
+      - neo4j_data:/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - 'cypher-shell -u "$$GRAPHITTI_NEO4J_USERNAME" -p "$$GRAPHITTI_NEO4J_PASSWORD" "RETURN 1" >/dev/null 2>&1 || exit 1'
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 40s
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    environment:
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USERNAME: "${NEO4J_USERNAME:-neo4j}"
+      NEO4J_PASSWORD: "${NEO4J_PASSWORD:?Set NEO4J_PASSWORD in root .env}"
+      NEO4J_DATABASE: "${NEO4J_DATABASE:-neo4j}"
+      GRAPHITTI_ALLOWED_ORIGINS: "${GRAPHITTI_ALLOWED_ORIGINS:-http://localhost:8080,http://127.0.0.1:8080}"
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    expose:
+      - "8000"
+    volumes:
+      - graphitti_raw_data:/workspace/data/raw
+      - graphitti_processed_data:/workspace/data/processed
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=4)"
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 90s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_API_URL: /api
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8080:80"
+
+volumes:
+  neo4j_data:
+    name: graphitti_compose_neo4j_data
+  graphitti_raw_data:
+  graphitti_processed_data:

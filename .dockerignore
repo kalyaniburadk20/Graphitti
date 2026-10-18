@@ -1,0 +1,21 @@
+# Never include secrets in Docker build context
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Git and local Python environments
+.git
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Frontend local dependencies and build output
+**/node_modules/
+**/dist/
+
+# Local crawl data, generated processing files and backups
+data/raw/
+data/processed/
+data/processed_backup_*/
